@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "lib": ["ES2020"],
+    "skipLibCheck": true,
+    "useDefineForClassFields": true,
+
+    /* Bundler mode - Adjusted for Node.js */
+    // "allowImportingTsExtensions": true, // Usually not needed for CommonJS
+    // "verbatimModuleSyntax": true, // Might be for ESM
+    // "moduleDetection": "force", // Might be for ESM
+    // "noEmit": true, // Set to false or remove if you plan to build JS files. ts-node handles this for dev.
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    // "erasableSyntaxOnly": true, // This might be too restrictive or new for some setups
+    "noFallthroughCasesInSwitch": true
+    // "noUncheckedSideEffectImports": true // This might be too restrictive
+  },
+  "include": ["src"]
+}
