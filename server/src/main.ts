@@ -20,7 +20,7 @@ const gameServer = new Server({
 gameServer.define('my_room', MyRoom);
 
 // Example: Health check route
-app.get('/health', (req, res) => {
+app.get('/health', (_req, res) => {
   res.send('Server is healthy');
 });
 
