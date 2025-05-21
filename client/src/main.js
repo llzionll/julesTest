@@ -1,8 +1,4 @@
 import * as BABYLON from '@babylonjs/core';
-import 'babylonjs/Materials/standardMaterial';
-import 'babylonjs/Lights/hemisphericLight';
-import 'babylonjs/Meshes/Builders/sphereBuilder';
-import 'babylonjs/Meshes/Builders/groundBuilder';
 import * as Colyseus from 'colyseus.js';
 
 // --- Colyseus Client Setup ---
